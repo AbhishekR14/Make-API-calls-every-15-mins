@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/Make-API-calls-every-15-mins/";
+    config.base = "/Make-API-calls-every-25-mins/";
   }
 
   return config;

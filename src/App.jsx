@@ -15,7 +15,7 @@ function App() {
   };
 
   makeRequest();
-  setInterval(makeRequest, 15 * 60 * 1000);
+  setInterval(makeRequest, 25 * 60 * 1000);
   return <>Calling API :- {URL}</>;
 }
 
